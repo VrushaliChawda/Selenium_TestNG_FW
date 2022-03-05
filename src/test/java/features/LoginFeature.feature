@@ -2,7 +2,7 @@ Feature: Application login
 
   Scenario: Valid user is able to login
     Given User navigates to the "https://demo.spreecommerce.org/" page
-    When User logs in with username "test@valid.com" and password "<some-text>"
+    When User logs in with username "test@valid.com" and password "Test@123"
     Then User is logged in successfully
 
 
